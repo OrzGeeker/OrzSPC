@@ -1,1 +1,57 @@
-{"formatVersion":"1.0","generatedAt":"2023-12-04T18:17:25Z","generatedBy":{"name":"wangzhizhou"},"keywords":["swift package collection"],"name":"OrzGeeker Package Collection","overview":"This is a swift package collection of OrzGeeker.","packages":[{"keywords":[],"readmeURL":"https://raw.githubusercontent.com/OrzGeeker/OrzSwiftLint/main/README.md","summary":"The Unite Lint Configuration for all projects of swift","url":"https://github.com/OrzGeeker/OrzSwiftLint.git","versions":[{"defaultToolsVersion":"5.8","manifests":{"5.8":{"minimumPlatformVersions":[{"name":"macos","version":"12.0"}],"packageName":"OrzSwiftLint","products":[{"name":"OrzSwiftLintBuildToolPlugin","targets":["OrzSwiftLintBuildToolPlugin"],"type":{"plugin":null}}],"targets":[{"moduleName":"OrzSwiftLintBuildToolPlugin","name":"OrzSwiftLintBuildToolPlugin"}],"toolsVersion":"5.8"}},"version":"0.0.1"}]}]}
+{
+  "formatVersion" : "1.0",
+  "generatedAt" : "2023-12-04T18:26:46Z",
+  "generatedBy" : {
+    "name" : "wangzhizhou"
+  },
+  "keywords" : [
+    "swift package collection"
+  ],
+  "name" : "OrzGeeker Package Collection",
+  "overview" : "This is a swift package collection of OrzGeeker.",
+  "packages" : [
+    {
+      "keywords" : [
+
+      ],
+      "readmeURL" : "https://raw.githubusercontent.com/OrzGeeker/OrzSwiftLint/main/README.md",
+      "summary" : "The Unite Lint Configuration for all projects of swift",
+      "url" : "https://github.com/OrzGeeker/OrzSwiftLint.git",
+      "versions" : [
+        {
+          "defaultToolsVersion" : "5.8",
+          "manifests" : {
+            "5.8" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "12.0"
+                }
+              ],
+              "packageName" : "OrzSwiftLint",
+              "products" : [
+                {
+                  "name" : "OrzSwiftLintBuildToolPlugin",
+                  "targets" : [
+                    "OrzSwiftLintBuildToolPlugin"
+                  ],
+                  "type" : {
+                    "plugin" : null
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "OrzSwiftLintBuildToolPlugin",
+                  "name" : "OrzSwiftLintBuildToolPlugin"
+                }
+              ],
+              "toolsVersion" : "5.8"
+            }
+          },
+          "version" : "0.0.1"
+        }
+      ]
+    }
+  ]
+}
