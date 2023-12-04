@@ -6,7 +6,7 @@
     ],
     "packages":[
         {
-            "url":"https://github.com/OrzGeeker/OrzLarkSDK.git"
+            "url":"https://github.com/OrzGeeker/OrzSwiftLint.git"
         }
     ],
     "author":{
