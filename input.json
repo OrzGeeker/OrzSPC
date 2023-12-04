@@ -1,0 +1,15 @@
+{
+    "name":"OrzGeeker Package Collection",
+    "overview":"This is a swift package collection of OrzGeeker.",
+    "keywords":[
+        "swift package collection"
+    ],
+    "packages":[
+        {
+            "url":"https://github.com/OrzGeeker/OrzLarkSDK.git"
+        }
+    ],
+    "author":{
+        "name":"wangzhizhou"
+    }
+}

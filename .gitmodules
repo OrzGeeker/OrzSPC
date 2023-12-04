@@ -1,0 +1,3 @@
+[submodule "swift-package-collection-generator"]
+	path = swift-package-collection-generator
+	url = https://github.com/apple/swift-package-collection-generator.git
