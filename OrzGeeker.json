@@ -1,6 +1,6 @@
 {
   "formatVersion" : "1.0",
-  "generatedAt" : "2023-12-06T07:31:03Z",
+  "generatedAt" : "2023-12-06T09:19:15Z",
   "generatedBy" : {
     "name" : "wangzhizhou"
   },
@@ -14,6 +14,11 @@
   "overview" : "The Swift Package Collection Used By OrzGeeker",
   "packages" : [
     {
+      "keywords" : [
+
+      ],
+      "readmeURL" : "https://raw.githubusercontent.com/OrzGeeker/OrzSwiftLint/main/README.md",
+      "summary" : "The Unite Lint Configuration for all projects of swift",
       "url" : "https://github.com/OrzGeeker/OrzSwiftLint.git",
       "versions" : [
         {
@@ -52,6 +57,27 @@
       ]
     },
     {
+      "keywords" : [
+        "appkit",
+        "command-line-tool",
+        "ios",
+        "macos",
+        "objective-c",
+        "qrcode",
+        "qrcode-detector",
+        "qrcode-generator",
+        "swift",
+        "swiftui",
+        "tvos",
+        "uikit",
+        "watchos"
+      ],
+      "license" : {
+        "name" : "MIT",
+        "url" : "https://raw.githubusercontent.com/dagronf/QRCode/main/LICENSE"
+      },
+      "readmeURL" : "https://raw.githubusercontent.com/dagronf/QRCode/main/README.md",
+      "summary" : "A simple drop-in macOS/iOS/tvOS/watchOS QR Code generator view for Swift, Objective-C and SwiftUI.",
       "url" : "https://github.com/dagronf/qrcode.git",
       "versions" : [
         {
@@ -445,6 +471,18 @@
       ]
     },
     {
+      "keywords" : [
+        "cli",
+        "command-line",
+        "flag",
+        "option"
+      ],
+      "license" : {
+        "name" : "Apache-2.0",
+        "url" : "https://raw.githubusercontent.com/apple/swift-argument-parser/main/LICENSE.txt"
+      },
+      "readmeURL" : "https://raw.githubusercontent.com/apple/swift-argument-parser/main/README.md",
+      "summary" : "Straightforward, type-safe argument parsing for Swift",
       "url" : "https://github.com/apple/swift-argument-parser",
       "versions" : [
         {
@@ -1053,6 +1091,22 @@
       ]
     },
     {
+      "keywords" : [
+        "dom",
+        "extract",
+        "html",
+        "html-document",
+        "parse",
+        "selector",
+        "swift",
+        "swiftsoup"
+      ],
+      "license" : {
+        "name" : "MIT",
+        "url" : "https://raw.githubusercontent.com/scinfu/SwiftSoup/master/LICENSE"
+      },
+      "readmeURL" : "https://raw.githubusercontent.com/scinfu/SwiftSoup/master/README.md",
+      "summary" : "SwiftSoup: Pure Swift HTML Parser, with best of DOM, CSS, and jquery (Supports Linux, iOS, Mac, tvOS, watchOS)",
       "url" : "https://github.com/scinfu/SwiftSoup.git",
       "versions" : [
         {
@@ -1238,6 +1292,21 @@
       ]
     },
     {
+      "keywords" : [
+        "database",
+        "database-observation",
+        "grdb",
+        "spm",
+        "sql",
+        "sql-builder",
+        "sqlite",
+        "sqlite-databases"
+      ],
+      "license" : {
+        "name" : "MIT",
+        "url" : "https://raw.githubusercontent.com/groue/GRDB.swift/master/LICENSE"
+      },
+      "summary" : "A toolkit for SQLite databases, with a focus on application development",
       "url" : "https://github.com/groue/GRDB.swift.git",
       "versions" : [
         {

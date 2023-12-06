@@ -22,6 +22,9 @@
         },
         {
             "url": "https://github.com/groue/GRDB.swift.git"
+        },
+        {
+            "url": "https://github.com/OrzGeeker/OrzSwiftCrawler.git"
         }
     ],
     "author": {
