@@ -1,21 +1,19 @@
 {
   "formatVersion" : "1.0",
-  "generatedAt" : "2023-12-04T18:26:46Z",
+  "generatedAt" : "2023-12-06T07:31:03Z",
   "generatedBy" : {
     "name" : "wangzhizhou"
   },
   "keywords" : [
-    "swift package collection"
+    "OrzGeeker",
+    "SPC",
+    "Swift Package",
+    "Collection"
   ],
-  "name" : "OrzGeeker Package Collection",
-  "overview" : "This is a swift package collection of OrzGeeker.",
+  "name" : "OrzSPC",
+  "overview" : "The Swift Package Collection Used By OrzGeeker",
   "packages" : [
     {
-      "keywords" : [
-
-      ],
-      "readmeURL" : "https://raw.githubusercontent.com/OrzGeeker/OrzSwiftLint/main/README.md",
-      "summary" : "The Unite Lint Configuration for all projects of swift",
       "url" : "https://github.com/OrzGeeker/OrzSwiftLint.git",
       "versions" : [
         {
@@ -50,6 +48,1590 @@
             }
           },
           "version" : "0.0.1"
+        }
+      ]
+    },
+    {
+      "url" : "https://github.com/dagronf/qrcode.git",
+      "versions" : [
+        {
+          "defaultToolsVersion" : "5.4",
+          "manifests" : {
+            "5.4" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.13"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "13.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "13.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "6.0"
+                }
+              ],
+              "packageName" : "QRCode",
+              "products" : [
+                {
+                  "name" : "QRCode",
+                  "targets" : [
+                    "QRCode"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "QRCodeDetector",
+                  "targets" : [
+                    "QRCodeDetector"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "dynamic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "QRCodeDynamic",
+                  "targets" : [
+                    "QRCode"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "dynamic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "QRCodeStatic",
+                  "targets" : [
+                    "QRCode"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "static"
+                    ]
+                  }
+                },
+                {
+                  "name" : "qrcodegen",
+                  "targets" : [
+                    "qrcodegen"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "QRCode",
+                  "name" : "QRCode"
+                },
+                {
+                  "moduleName" : "QRCodeDetector",
+                  "name" : "QRCodeDetector"
+                },
+                {
+                  "moduleName" : "qrcodegen",
+                  "name" : "qrcodegen"
+                }
+              ],
+              "toolsVersion" : "5.4"
+            }
+          },
+          "version" : "17.0.0"
+        },
+        {
+          "defaultToolsVersion" : "5.4",
+          "manifests" : {
+            "5.4" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.11"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "13.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "13.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "6.0"
+                }
+              ],
+              "packageName" : "QRCode",
+              "products" : [
+                {
+                  "name" : "QRCode",
+                  "targets" : [
+                    "QRCode"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "QRCodeDetector",
+                  "targets" : [
+                    "QRCodeDetector"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "dynamic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "QRCodeDynamic",
+                  "targets" : [
+                    "QRCode"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "dynamic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "QRCodeStatic",
+                  "targets" : [
+                    "QRCode"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "static"
+                    ]
+                  }
+                },
+                {
+                  "name" : "qrcodegen",
+                  "targets" : [
+                    "qrcodegen"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "QRCode",
+                  "name" : "QRCode"
+                },
+                {
+                  "moduleName" : "QRCodeDetector",
+                  "name" : "QRCodeDetector"
+                },
+                {
+                  "moduleName" : "qrcodegen",
+                  "name" : "qrcodegen"
+                }
+              ],
+              "toolsVersion" : "5.4"
+            }
+          },
+          "version" : "16.1.2"
+        },
+        {
+          "defaultToolsVersion" : "5.4",
+          "manifests" : {
+            "5.4" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.11"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "13.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "13.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "6.0"
+                }
+              ],
+              "packageName" : "QRCode",
+              "products" : [
+                {
+                  "name" : "QRCode",
+                  "targets" : [
+                    "QRCode"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "QRCodeDetector",
+                  "targets" : [
+                    "QRCodeDetector"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "dynamic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "QRCodeDynamic",
+                  "targets" : [
+                    "QRCode"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "dynamic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "QRCodeStatic",
+                  "targets" : [
+                    "QRCode"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "static"
+                    ]
+                  }
+                },
+                {
+                  "name" : "qrcodegen",
+                  "targets" : [
+                    "qrcodegen"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "QRCode",
+                  "name" : "QRCode"
+                },
+                {
+                  "moduleName" : "QRCodeDetector",
+                  "name" : "QRCodeDetector"
+                },
+                {
+                  "moduleName" : "qrcodegen",
+                  "name" : "qrcodegen"
+                }
+              ],
+              "toolsVersion" : "5.4"
+            }
+          },
+          "version" : "16.1.1"
+        },
+        {
+          "defaultToolsVersion" : "5.4",
+          "manifests" : {
+            "5.4" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.11"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "13.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "13.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "6.0"
+                }
+              ],
+              "packageName" : "QRCode",
+              "products" : [
+                {
+                  "name" : "QRCode",
+                  "targets" : [
+                    "QRCode"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "QRCodeDetector",
+                  "targets" : [
+                    "QRCodeDetector"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "dynamic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "QRCodeDynamic",
+                  "targets" : [
+                    "QRCode"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "dynamic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "QRCodeStatic",
+                  "targets" : [
+                    "QRCode"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "static"
+                    ]
+                  }
+                },
+                {
+                  "name" : "qrcodegen",
+                  "targets" : [
+                    "qrcodegen"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "QRCode",
+                  "name" : "QRCode"
+                },
+                {
+                  "moduleName" : "QRCodeDetector",
+                  "name" : "QRCodeDetector"
+                },
+                {
+                  "moduleName" : "qrcodegen",
+                  "name" : "qrcodegen"
+                }
+              ],
+              "toolsVersion" : "5.4"
+            }
+          },
+          "version" : "16.1.0"
+        }
+      ]
+    },
+    {
+      "url" : "https://github.com/apple/swift-argument-parser",
+      "versions" : [
+        {
+          "defaultToolsVersion" : "5.6",
+          "manifests" : {
+            "5.6" : {
+              "packageName" : "swift-argument-parser",
+              "products" : [
+                {
+                  "name" : "ArgumentParser",
+                  "targets" : [
+                    "ArgumentParser"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "GenerateManual",
+                  "targets" : [
+                    "GenerateManual"
+                  ],
+                  "type" : {
+                    "plugin" : null
+                  }
+                },
+                {
+                  "name" : "changelog-authors",
+                  "targets" : [
+                    "changelog-authors"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "count-lines",
+                  "targets" : [
+                    "count-lines"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "generate-manual",
+                  "targets" : [
+                    "generate-manual"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "math",
+                  "targets" : [
+                    "math"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "repeat",
+                  "targets" : [
+                    "repeat"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "roll",
+                  "targets" : [
+                    "roll"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "ArgumentParser",
+                  "name" : "ArgumentParser"
+                },
+                {
+                  "moduleName" : "GenerateManual",
+                  "name" : "GenerateManual"
+                },
+                {
+                  "moduleName" : "changelog_authors",
+                  "name" : "changelog-authors"
+                },
+                {
+                  "moduleName" : "count_lines",
+                  "name" : "count-lines"
+                },
+                {
+                  "moduleName" : "generate_manual",
+                  "name" : "generate-manual"
+                },
+                {
+                  "moduleName" : "math",
+                  "name" : "math"
+                },
+                {
+                  "moduleName" : "repeat",
+                  "name" : "repeat"
+                },
+                {
+                  "moduleName" : "roll",
+                  "name" : "roll"
+                }
+              ],
+              "toolsVersion" : "5.6"
+            }
+          },
+          "version" : "1.2.3"
+        },
+        {
+          "defaultToolsVersion" : "5.6",
+          "manifests" : {
+            "5.6" : {
+              "packageName" : "swift-argument-parser",
+              "products" : [
+                {
+                  "name" : "ArgumentParser",
+                  "targets" : [
+                    "ArgumentParser"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "GenerateManual",
+                  "targets" : [
+                    "GenerateManual"
+                  ],
+                  "type" : {
+                    "plugin" : null
+                  }
+                },
+                {
+                  "name" : "changelog-authors",
+                  "targets" : [
+                    "changelog-authors"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "count-lines",
+                  "targets" : [
+                    "count-lines"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "generate-manual",
+                  "targets" : [
+                    "generate-manual"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "math",
+                  "targets" : [
+                    "math"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "repeat",
+                  "targets" : [
+                    "repeat"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "roll",
+                  "targets" : [
+                    "roll"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "ArgumentParser",
+                  "name" : "ArgumentParser"
+                },
+                {
+                  "moduleName" : "GenerateManual",
+                  "name" : "GenerateManual"
+                },
+                {
+                  "moduleName" : "changelog_authors",
+                  "name" : "changelog-authors"
+                },
+                {
+                  "moduleName" : "count_lines",
+                  "name" : "count-lines"
+                },
+                {
+                  "moduleName" : "generate_manual",
+                  "name" : "generate-manual"
+                },
+                {
+                  "moduleName" : "math",
+                  "name" : "math"
+                },
+                {
+                  "moduleName" : "repeat",
+                  "name" : "repeat"
+                },
+                {
+                  "moduleName" : "roll",
+                  "name" : "roll"
+                }
+              ],
+              "toolsVersion" : "5.6"
+            }
+          },
+          "version" : "1.2.2"
+        },
+        {
+          "defaultToolsVersion" : "5.6",
+          "manifests" : {
+            "5.6" : {
+              "packageName" : "swift-argument-parser",
+              "products" : [
+                {
+                  "name" : "ArgumentParser",
+                  "targets" : [
+                    "ArgumentParser"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "GenerateManual",
+                  "targets" : [
+                    "GenerateManual"
+                  ],
+                  "type" : {
+                    "plugin" : null
+                  }
+                },
+                {
+                  "name" : "changelog-authors",
+                  "targets" : [
+                    "changelog-authors"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "count-lines",
+                  "targets" : [
+                    "count-lines"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "generate-manual",
+                  "targets" : [
+                    "generate-manual"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "math",
+                  "targets" : [
+                    "math"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "repeat",
+                  "targets" : [
+                    "repeat"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "roll",
+                  "targets" : [
+                    "roll"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "ArgumentParser",
+                  "name" : "ArgumentParser"
+                },
+                {
+                  "moduleName" : "GenerateManual",
+                  "name" : "GenerateManual"
+                },
+                {
+                  "moduleName" : "changelog_authors",
+                  "name" : "changelog-authors"
+                },
+                {
+                  "moduleName" : "count_lines",
+                  "name" : "count-lines"
+                },
+                {
+                  "moduleName" : "generate_manual",
+                  "name" : "generate-manual"
+                },
+                {
+                  "moduleName" : "math",
+                  "name" : "math"
+                },
+                {
+                  "moduleName" : "repeat",
+                  "name" : "repeat"
+                },
+                {
+                  "moduleName" : "roll",
+                  "name" : "roll"
+                }
+              ],
+              "toolsVersion" : "5.6"
+            }
+          },
+          "version" : "1.2.1"
+        },
+        {
+          "defaultToolsVersion" : "5.2",
+          "manifests" : {
+            "5.2" : {
+              "packageName" : "swift-argument-parser",
+              "products" : [
+                {
+                  "name" : "ArgumentParser",
+                  "targets" : [
+                    "ArgumentParser"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "changelog-authors",
+                  "targets" : [
+                    "changelog-authors"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "math",
+                  "targets" : [
+                    "math"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "repeat",
+                  "targets" : [
+                    "repeat"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "roll",
+                  "targets" : [
+                    "roll"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "ArgumentParser",
+                  "name" : "ArgumentParser"
+                },
+                {
+                  "moduleName" : "changelog_authors",
+                  "name" : "changelog-authors"
+                },
+                {
+                  "moduleName" : "math",
+                  "name" : "math"
+                },
+                {
+                  "moduleName" : "repeat",
+                  "name" : "repeat"
+                },
+                {
+                  "moduleName" : "roll",
+                  "name" : "roll"
+                }
+              ],
+              "toolsVersion" : "5.2"
+            }
+          },
+          "version" : "0.5.0"
+        },
+        {
+          "defaultToolsVersion" : "5.2",
+          "manifests" : {
+            "5.2" : {
+              "packageName" : "swift-argument-parser",
+              "products" : [
+                {
+                  "name" : "ArgumentParser",
+                  "targets" : [
+                    "ArgumentParser"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "changelog-authors",
+                  "targets" : [
+                    "changelog-authors"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "math",
+                  "targets" : [
+                    "math"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "repeat",
+                  "targets" : [
+                    "repeat"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "roll",
+                  "targets" : [
+                    "roll"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "ArgumentParser",
+                  "name" : "ArgumentParser"
+                },
+                {
+                  "moduleName" : "changelog_authors",
+                  "name" : "changelog-authors"
+                },
+                {
+                  "moduleName" : "math",
+                  "name" : "math"
+                },
+                {
+                  "moduleName" : "repeat",
+                  "name" : "repeat"
+                },
+                {
+                  "moduleName" : "roll",
+                  "name" : "roll"
+                }
+              ],
+              "toolsVersion" : "5.2"
+            }
+          },
+          "version" : "0.4.4"
+        },
+        {
+          "defaultToolsVersion" : "5.2",
+          "manifests" : {
+            "5.2" : {
+              "packageName" : "swift-argument-parser",
+              "products" : [
+                {
+                  "name" : "ArgumentParser",
+                  "targets" : [
+                    "ArgumentParser"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "changelog-authors",
+                  "targets" : [
+                    "changelog-authors"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "math",
+                  "targets" : [
+                    "math"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "repeat",
+                  "targets" : [
+                    "repeat"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "roll",
+                  "targets" : [
+                    "roll"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "ArgumentParser",
+                  "name" : "ArgumentParser"
+                },
+                {
+                  "moduleName" : "changelog_authors",
+                  "name" : "changelog-authors"
+                },
+                {
+                  "moduleName" : "math",
+                  "name" : "math"
+                },
+                {
+                  "moduleName" : "repeat",
+                  "name" : "repeat"
+                },
+                {
+                  "moduleName" : "roll",
+                  "name" : "roll"
+                }
+              ],
+              "toolsVersion" : "5.2"
+            }
+          },
+          "version" : "0.4.3"
+        }
+      ]
+    },
+    {
+      "url" : "https://github.com/scinfu/SwiftSoup.git",
+      "versions" : [
+        {
+          "defaultToolsVersion" : "5.0",
+          "manifests" : {
+            "5.0" : {
+              "packageName" : "SwiftSoup",
+              "products" : [
+                {
+                  "name" : "SwiftSoup",
+                  "targets" : [
+                    "SwiftSoup"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "SwiftSoup",
+                  "name" : "SwiftSoup"
+                }
+              ],
+              "toolsVersion" : "5.0"
+            }
+          },
+          "summary" : "2.6.1",
+          "version" : "2.6.1"
+        },
+        {
+          "defaultToolsVersion" : "5.0",
+          "manifests" : {
+            "5.0" : {
+              "packageName" : "SwiftSoup",
+              "products" : [
+                {
+                  "name" : "SwiftSoup",
+                  "targets" : [
+                    "SwiftSoup"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "SwiftSoup",
+                  "name" : "SwiftSoup"
+                }
+              ],
+              "toolsVersion" : "5.0"
+            }
+          },
+          "summary" : "",
+          "version" : "2.6.0"
+        },
+        {
+          "defaultToolsVersion" : "5.0",
+          "manifests" : {
+            "5.0" : {
+              "packageName" : "SwiftSoup",
+              "products" : [
+                {
+                  "name" : "SwiftSoup",
+                  "targets" : [
+                    "SwiftSoup"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "SwiftSoup",
+                  "name" : "SwiftSoup"
+                }
+              ],
+              "toolsVersion" : "5.0"
+            }
+          },
+          "summary" : "",
+          "version" : "2.5.3"
+        },
+        {
+          "defaultToolsVersion" : "4.1",
+          "manifests" : {
+            "4.1" : {
+              "packageName" : "SwiftSoup",
+              "products" : [
+                {
+                  "name" : "SwiftSoup",
+                  "targets" : [
+                    "SwiftSoup"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "SwiftSoup",
+                  "name" : "SwiftSoup"
+                }
+              ],
+              "toolsVersion" : "4.1"
+            }
+          },
+          "summary" : "",
+          "version" : "1.7.5"
+        },
+        {
+          "defaultToolsVersion" : "4.1",
+          "manifests" : {
+            "4.1" : {
+              "packageName" : "SwiftSoup",
+              "products" : [
+                {
+                  "name" : "SwiftSoup",
+                  "targets" : [
+                    "SwiftSoup"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "SwiftSoup",
+                  "name" : "SwiftSoup"
+                }
+              ],
+              "toolsVersion" : "4.1"
+            }
+          },
+          "summary" : "",
+          "version" : "1.7.4"
+        },
+        {
+          "defaultToolsVersion" : "4.0",
+          "manifests" : {
+            "4.0" : {
+              "packageName" : "SwiftSoup",
+              "products" : [
+                {
+                  "name" : "SwiftSoup",
+                  "targets" : [
+                    "SwiftSoup"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "SwiftSoup",
+                  "name" : "SwiftSoup"
+                }
+              ],
+              "toolsVersion" : "4.0"
+            }
+          },
+          "summary" : "",
+          "version" : "1.7.3"
+        }
+      ]
+    },
+    {
+      "url" : "https://github.com/groue/GRDB.swift.git",
+      "versions" : [
+        {
+          "defaultToolsVersion" : "5.7",
+          "manifests" : {
+            "5.7" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "macos",
+                  "version" : "10.13"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "4.0"
+                }
+              ],
+              "packageName" : "GRDB",
+              "products" : [
+                {
+                  "name" : "CSQLite",
+                  "targets" : [
+                    "CSQLite"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "GRDB",
+                  "targets" : [
+                    "GRDB"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "GRDB-dynamic",
+                  "targets" : [
+                    "GRDB"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "dynamic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "CSQLite",
+                  "name" : "CSQLite"
+                },
+                {
+                  "moduleName" : "GRDB",
+                  "name" : "GRDB"
+                }
+              ],
+              "toolsVersion" : "5.7"
+            }
+          },
+          "version" : "v6.23.0"
+        },
+        {
+          "defaultToolsVersion" : "5.7",
+          "manifests" : {
+            "5.7" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "macos",
+                  "version" : "10.13"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "4.0"
+                }
+              ],
+              "packageName" : "GRDB",
+              "products" : [
+                {
+                  "name" : "CSQLite",
+                  "targets" : [
+                    "CSQLite"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "GRDB",
+                  "targets" : [
+                    "GRDB"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "GRDB-dynamic",
+                  "targets" : [
+                    "GRDB"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "dynamic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "CSQLite",
+                  "name" : "CSQLite"
+                },
+                {
+                  "moduleName" : "GRDB",
+                  "name" : "GRDB"
+                }
+              ],
+              "toolsVersion" : "5.7"
+            }
+          },
+          "version" : "v6.22.0"
+        },
+        {
+          "defaultToolsVersion" : "5.7",
+          "manifests" : {
+            "5.7" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "macos",
+                  "version" : "10.13"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "4.0"
+                }
+              ],
+              "packageName" : "GRDB",
+              "products" : [
+                {
+                  "name" : "CSQLite",
+                  "targets" : [
+                    "CSQLite"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "GRDB",
+                  "targets" : [
+                    "GRDB"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "GRDB-dynamic",
+                  "targets" : [
+                    "GRDB"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "dynamic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "CSQLite",
+                  "name" : "CSQLite"
+                },
+                {
+                  "moduleName" : "GRDB",
+                  "name" : "GRDB"
+                }
+              ],
+              "toolsVersion" : "5.7"
+            }
+          },
+          "version" : "v6.21.0"
+        },
+        {
+          "defaultToolsVersion" : "5.2",
+          "manifests" : {
+            "5.2" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "macos",
+                  "version" : "10.10"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "2.0"
+                }
+              ],
+              "packageName" : "GRDB",
+              "products" : [
+                {
+                  "name" : "GRDB",
+                  "targets" : [
+                    "GRDB"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "GRDB-dynamic",
+                  "targets" : [
+                    "GRDB"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "dynamic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "GRDB",
+                  "name" : "GRDB"
+                }
+              ],
+              "toolsVersion" : "5.2"
+            }
+          },
+          "version" : "v5.26.1"
+        },
+        {
+          "defaultToolsVersion" : "5.2",
+          "manifests" : {
+            "5.2" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "macos",
+                  "version" : "10.10"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "2.0"
+                }
+              ],
+              "packageName" : "GRDB",
+              "products" : [
+                {
+                  "name" : "GRDB",
+                  "targets" : [
+                    "GRDB"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "GRDB-dynamic",
+                  "targets" : [
+                    "GRDB"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "dynamic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "GRDB",
+                  "name" : "GRDB"
+                }
+              ],
+              "toolsVersion" : "5.2"
+            }
+          },
+          "version" : "v5.26.0"
+        },
+        {
+          "defaultToolsVersion" : "5.2",
+          "manifests" : {
+            "5.2" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "macos",
+                  "version" : "10.10"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "2.0"
+                }
+              ],
+              "packageName" : "GRDB",
+              "products" : [
+                {
+                  "name" : "GRDB",
+                  "targets" : [
+                    "GRDB"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "GRDB-dynamic",
+                  "targets" : [
+                    "GRDB"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "dynamic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "GRDB",
+                  "name" : "GRDB"
+                }
+              ],
+              "toolsVersion" : "5.2"
+            }
+          },
+          "version" : "v5.25.0"
         }
       ]
     }

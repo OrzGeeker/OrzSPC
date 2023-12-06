@@ -1,15 +1,30 @@
 {
-    "name":"OrzGeeker Package Collection",
-    "overview":"This is a swift package collection of OrzGeeker.",
-    "keywords":[
-        "swift package collection"
+    "name": "OrzSPC",
+    "overview": "The Swift Package Collection Used By OrzGeeker",
+    "keywords": [
+        "OrzGeeker",
+        "SPC",
+        "Swift Package",
+        "Collection"
     ],
-    "packages":[
+    "packages": [
         {
-            "url":"https://github.com/OrzGeeker/OrzSwiftLint.git"
+            "url": "https://github.com/OrzGeeker/OrzSwiftLint.git"
+        },
+        {
+            "url": "https://github.com/dagronf/qrcode.git"
+        },
+        {
+            "url": "https://github.com/apple/swift-argument-parser"
+        },
+        {
+            "url": "https://github.com/scinfu/SwiftSoup.git"
+        },
+        {
+            "url": "https://github.com/groue/GRDB.swift.git"
         }
     ],
-    "author":{
-        "name":"wangzhizhou"
+    "author": {
+        "name": "wangzhizhou"
     }
 }

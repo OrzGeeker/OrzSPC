@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+git submodule init
 git pull --recurse-submodules
 
 input_path=collection_input_file.json
