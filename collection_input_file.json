@@ -25,6 +25,9 @@
         },
         {
             "url": "https://github.com/OrzGeeker/OrzSwiftCrawler.git"
+        },
+        {
+            "url": "https://github.com/weichsel/ZIPFoundation.git"
         }
     ],
     "author": {
