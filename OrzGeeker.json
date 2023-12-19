@@ -1,6 +1,6 @@
 {
   "formatVersion" : "1.0",
-  "generatedAt" : "2023-12-06T09:19:15Z",
+  "generatedAt" : "2023-12-19T13:31:57Z",
   "generatedBy" : {
     "name" : "wangzhizhou"
   },
@@ -486,6 +486,126 @@
       "url" : "https://github.com/apple/swift-argument-parser",
       "versions" : [
         {
+          "defaultToolsVersion" : "5.8",
+          "manifests" : {
+            "5.8" : {
+              "packageName" : "swift-argument-parser",
+              "products" : [
+                {
+                  "name" : "ArgumentParser",
+                  "targets" : [
+                    "ArgumentParser"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "GenerateManual",
+                  "targets" : [
+                    "GenerateManual"
+                  ],
+                  "type" : {
+                    "plugin" : null
+                  }
+                },
+                {
+                  "name" : "changelog-authors",
+                  "targets" : [
+                    "changelog-authors"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "count-lines",
+                  "targets" : [
+                    "count-lines"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "generate-manual",
+                  "targets" : [
+                    "generate-manual"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "math",
+                  "targets" : [
+                    "math"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "repeat",
+                  "targets" : [
+                    "repeat"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "roll",
+                  "targets" : [
+                    "roll"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "ArgumentParser",
+                  "name" : "ArgumentParser"
+                },
+                {
+                  "moduleName" : "GenerateManual",
+                  "name" : "GenerateManual"
+                },
+                {
+                  "moduleName" : "changelog_authors",
+                  "name" : "changelog-authors"
+                },
+                {
+                  "moduleName" : "count_lines",
+                  "name" : "count-lines"
+                },
+                {
+                  "moduleName" : "generate_manual",
+                  "name" : "generate-manual"
+                },
+                {
+                  "moduleName" : "math",
+                  "name" : "math"
+                },
+                {
+                  "moduleName" : "repeat",
+                  "name" : "repeat"
+                },
+                {
+                  "moduleName" : "roll",
+                  "name" : "roll"
+                }
+              ],
+              "toolsVersion" : "5.8"
+            }
+          },
+          "version" : "1.3.0"
+        },
+        {
           "defaultToolsVersion" : "5.6",
           "manifests" : {
             "5.6" : {
@@ -724,126 +844,6 @@
             }
           },
           "version" : "1.2.2"
-        },
-        {
-          "defaultToolsVersion" : "5.6",
-          "manifests" : {
-            "5.6" : {
-              "packageName" : "swift-argument-parser",
-              "products" : [
-                {
-                  "name" : "ArgumentParser",
-                  "targets" : [
-                    "ArgumentParser"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                },
-                {
-                  "name" : "GenerateManual",
-                  "targets" : [
-                    "GenerateManual"
-                  ],
-                  "type" : {
-                    "plugin" : null
-                  }
-                },
-                {
-                  "name" : "changelog-authors",
-                  "targets" : [
-                    "changelog-authors"
-                  ],
-                  "type" : {
-                    "executable" : null
-                  }
-                },
-                {
-                  "name" : "count-lines",
-                  "targets" : [
-                    "count-lines"
-                  ],
-                  "type" : {
-                    "executable" : null
-                  }
-                },
-                {
-                  "name" : "generate-manual",
-                  "targets" : [
-                    "generate-manual"
-                  ],
-                  "type" : {
-                    "executable" : null
-                  }
-                },
-                {
-                  "name" : "math",
-                  "targets" : [
-                    "math"
-                  ],
-                  "type" : {
-                    "executable" : null
-                  }
-                },
-                {
-                  "name" : "repeat",
-                  "targets" : [
-                    "repeat"
-                  ],
-                  "type" : {
-                    "executable" : null
-                  }
-                },
-                {
-                  "name" : "roll",
-                  "targets" : [
-                    "roll"
-                  ],
-                  "type" : {
-                    "executable" : null
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "ArgumentParser",
-                  "name" : "ArgumentParser"
-                },
-                {
-                  "moduleName" : "GenerateManual",
-                  "name" : "GenerateManual"
-                },
-                {
-                  "moduleName" : "changelog_authors",
-                  "name" : "changelog-authors"
-                },
-                {
-                  "moduleName" : "count_lines",
-                  "name" : "count-lines"
-                },
-                {
-                  "moduleName" : "generate_manual",
-                  "name" : "generate-manual"
-                },
-                {
-                  "moduleName" : "math",
-                  "name" : "math"
-                },
-                {
-                  "moduleName" : "repeat",
-                  "name" : "repeat"
-                },
-                {
-                  "moduleName" : "roll",
-                  "name" : "roll"
-                }
-              ],
-              "toolsVersion" : "5.6"
-            }
-          },
-          "version" : "1.2.1"
         },
         {
           "defaultToolsVersion" : "5.2",
@@ -1292,21 +1292,6 @@
       ]
     },
     {
-      "keywords" : [
-        "database",
-        "database-observation",
-        "grdb",
-        "spm",
-        "sql",
-        "sql-builder",
-        "sqlite",
-        "sqlite-databases"
-      ],
-      "license" : {
-        "name" : "MIT",
-        "url" : "https://raw.githubusercontent.com/groue/GRDB.swift/master/LICENSE"
-      },
-      "summary" : "A toolkit for SQLite databases, with a focus on application development",
       "url" : "https://github.com/groue/GRDB.swift.git",
       "versions" : [
         {
@@ -1701,6 +1686,158 @@
             }
           },
           "version" : "v5.25.0"
+        }
+      ]
+    },
+    {
+      "url" : "https://github.com/weichsel/ZIPFoundation.git",
+      "versions" : [
+        {
+          "defaultToolsVersion" : "5.9",
+          "manifests" : {
+            "5.9" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.11"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "2.0"
+                },
+                {
+                  "name" : "visionos",
+                  "version" : "1.0"
+                }
+              ],
+              "packageName" : "ZIPFoundation",
+              "products" : [
+                {
+                  "name" : "ZIPFoundation",
+                  "targets" : [
+                    "ZIPFoundation"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "ZIPFoundation",
+                  "name" : "ZIPFoundation"
+                }
+              ],
+              "toolsVersion" : "5.9"
+            }
+          },
+          "version" : "0.9.17"
+        },
+        {
+          "defaultToolsVersion" : "5.0",
+          "manifests" : {
+            "5.0" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.11"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "2.0"
+                }
+              ],
+              "packageName" : "ZIPFoundation",
+              "products" : [
+                {
+                  "name" : "ZIPFoundation",
+                  "targets" : [
+                    "ZIPFoundation"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "ZIPFoundation",
+                  "name" : "ZIPFoundation"
+                }
+              ],
+              "toolsVersion" : "5.0"
+            }
+          },
+          "summary" : "",
+          "version" : "0.9.16"
+        },
+        {
+          "defaultToolsVersion" : "5.0",
+          "manifests" : {
+            "5.0" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.11"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "9.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "2.0"
+                }
+              ],
+              "packageName" : "ZIPFoundation",
+              "products" : [
+                {
+                  "name" : "ZIPFoundation",
+                  "targets" : [
+                    "ZIPFoundation"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "ZIPFoundation",
+                  "name" : "ZIPFoundation"
+                }
+              ],
+              "toolsVersion" : "5.0"
+            }
+          },
+          "summary" : "",
+          "version" : "0.9.15"
         }
       ]
     }
