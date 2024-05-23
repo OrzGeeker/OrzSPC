@@ -6,16 +6,51 @@ Swift Package Collection Used By OrzGeeker
 
 ## Usage
 
-- run command line as follow:
+### Add Collection
 
-```
-swift package-collection add --trust-unsigned \
-    https://raw.githubusercontent.com/OrzGeeker/OrzSPC/main/OrzGeeker.json
+- add with cli:
+
+```bash
+swift package-collection add \
+    https://raw.githubusercontent.com/OrzGeeker/OrzSPC/main/OrzGeeker.json \
+    --trust-unsigned
 ```
 
 - Or you can add the SPC url into Xcode manually:
 
 - ![Add Manually](./images/add_manually.png)
+
+### Get Meta Data of Collection
+
+```bash
+swift package-collection describe \
+    https://raw.githubusercontent.com/OrzGeeker/OrzSPC/main/OrzGeeker.json
+```
+
+### List All Collections
+
+```bash
+swift package-collection list
+```
+
+### Refresh Collections
+
+```bash
+swift package-collection refresh
+```
+
+### Remove Collection
+
+```bash
+swift package-collection remove \
+    https://raw.githubusercontent.com/OrzGeeker/OrzSPC/main/OrzGeeker.json
+```
+
+### Search Package by keyword in collections
+
+```bash
+swift package-collection search --keywords OrzSwiftLint
+```
 
 ## TODO
 
