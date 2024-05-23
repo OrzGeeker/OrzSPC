@@ -1,6 +1,6 @@
 {
   "formatVersion" : "1.0",
-  "generatedAt" : "2023-12-19T13:31:57Z",
+  "generatedAt" : "2024-05-23T03:02:32Z",
   "generatedBy" : {
     "name" : "wangzhizhou"
   },
@@ -14,13 +14,41 @@
   "overview" : "The Swift Package Collection Used By OrzGeeker",
   "packages" : [
     {
-      "keywords" : [
-
-      ],
-      "readmeURL" : "https://raw.githubusercontent.com/OrzGeeker/OrzSwiftLint/main/README.md",
-      "summary" : "The Unite Lint Configuration for all projects of swift",
       "url" : "https://github.com/OrzGeeker/OrzSwiftLint.git",
       "versions" : [
+        {
+          "defaultToolsVersion" : "5.8",
+          "manifests" : {
+            "5.8" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "12.0"
+                }
+              ],
+              "packageName" : "OrzSwiftLint",
+              "products" : [
+                {
+                  "name" : "OrzSwiftLintBuildToolPlugin",
+                  "targets" : [
+                    "OrzSwiftLintBuildToolPlugin"
+                  ],
+                  "type" : {
+                    "plugin" : null
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "OrzSwiftLintBuildToolPlugin",
+                  "name" : "OrzSwiftLintBuildToolPlugin"
+                }
+              ],
+              "toolsVersion" : "5.8"
+            }
+          },
+          "version" : "0.0.2"
+        },
         {
           "defaultToolsVersion" : "5.8",
           "manifests" : {
@@ -57,33 +85,12 @@
       ]
     },
     {
-      "keywords" : [
-        "appkit",
-        "command-line-tool",
-        "ios",
-        "macos",
-        "objective-c",
-        "qrcode",
-        "qrcode-detector",
-        "qrcode-generator",
-        "swift",
-        "swiftui",
-        "tvos",
-        "uikit",
-        "watchos"
-      ],
-      "license" : {
-        "name" : "MIT",
-        "url" : "https://raw.githubusercontent.com/dagronf/QRCode/main/LICENSE"
-      },
-      "readmeURL" : "https://raw.githubusercontent.com/dagronf/QRCode/main/README.md",
-      "summary" : "A simple drop-in macOS/iOS/tvOS/watchOS QR Code generator view for Swift, Objective-C and SwiftUI.",
       "url" : "https://github.com/dagronf/qrcode.git",
       "versions" : [
         {
-          "defaultToolsVersion" : "5.4",
+          "defaultToolsVersion" : "5.5",
           "manifests" : {
-            "5.4" : {
+            "5.5" : {
               "minimumPlatformVersions" : [
                 {
                   "name" : "macos",
@@ -91,7 +98,7 @@
                 },
                 {
                   "name" : "ios",
-                  "version" : "13.0"
+                  "version" : "11.0"
                 },
                 {
                   "name" : "tvos",
@@ -172,23 +179,23 @@
                   "name" : "qrcodegen"
                 }
               ],
-              "toolsVersion" : "5.4"
+              "toolsVersion" : "5.5"
             }
           },
-          "version" : "17.0.0"
+          "version" : "19.2.0"
         },
         {
-          "defaultToolsVersion" : "5.4",
+          "defaultToolsVersion" : "5.5",
           "manifests" : {
-            "5.4" : {
+            "5.5" : {
               "minimumPlatformVersions" : [
                 {
                   "name" : "macos",
-                  "version" : "10.11"
+                  "version" : "10.13"
                 },
                 {
                   "name" : "ios",
-                  "version" : "13.0"
+                  "version" : "11.0"
                 },
                 {
                   "name" : "tvos",
@@ -269,23 +276,23 @@
                   "name" : "qrcodegen"
                 }
               ],
-              "toolsVersion" : "5.4"
+              "toolsVersion" : "5.5"
             }
           },
-          "version" : "16.1.2"
+          "version" : "19.1.1"
         },
         {
-          "defaultToolsVersion" : "5.4",
+          "defaultToolsVersion" : "5.5",
           "manifests" : {
-            "5.4" : {
+            "5.5" : {
               "minimumPlatformVersions" : [
                 {
                   "name" : "macos",
-                  "version" : "10.11"
+                  "version" : "10.13"
                 },
                 {
                   "name" : "ios",
-                  "version" : "13.0"
+                  "version" : "11.0"
                 },
                 {
                   "name" : "tvos",
@@ -366,23 +373,23 @@
                   "name" : "qrcodegen"
                 }
               ],
-              "toolsVersion" : "5.4"
+              "toolsVersion" : "5.5"
             }
           },
-          "version" : "16.1.1"
+          "version" : "19.1.0"
         },
         {
-          "defaultToolsVersion" : "5.4",
+          "defaultToolsVersion" : "5.5",
           "manifests" : {
-            "5.4" : {
+            "5.5" : {
               "minimumPlatformVersions" : [
                 {
                   "name" : "macos",
-                  "version" : "10.11"
+                  "version" : "10.13"
                 },
                 {
                   "name" : "ios",
-                  "version" : "13.0"
+                  "version" : "11.0"
                 },
                 {
                   "name" : "tvos",
@@ -463,26 +470,208 @@
                   "name" : "qrcodegen"
                 }
               ],
-              "toolsVersion" : "5.4"
+              "toolsVersion" : "5.5"
             }
           },
-          "version" : "16.1.0"
+          "version" : "18.6.0"
+        },
+        {
+          "defaultToolsVersion" : "5.5",
+          "manifests" : {
+            "5.5" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.13"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "13.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "6.0"
+                }
+              ],
+              "packageName" : "QRCode",
+              "products" : [
+                {
+                  "name" : "QRCode",
+                  "targets" : [
+                    "QRCode"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "QRCodeDetector",
+                  "targets" : [
+                    "QRCodeDetector"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "dynamic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "QRCodeDynamic",
+                  "targets" : [
+                    "QRCode"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "dynamic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "QRCodeStatic",
+                  "targets" : [
+                    "QRCode"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "static"
+                    ]
+                  }
+                },
+                {
+                  "name" : "qrcodegen",
+                  "targets" : [
+                    "qrcodegen"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "QRCode",
+                  "name" : "QRCode"
+                },
+                {
+                  "moduleName" : "QRCodeDetector",
+                  "name" : "QRCodeDetector"
+                },
+                {
+                  "moduleName" : "qrcodegen",
+                  "name" : "qrcodegen"
+                }
+              ],
+              "toolsVersion" : "5.5"
+            }
+          },
+          "version" : "18.5.0"
+        },
+        {
+          "defaultToolsVersion" : "5.5",
+          "manifests" : {
+            "5.5" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.13"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "13.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "6.0"
+                }
+              ],
+              "packageName" : "QRCode",
+              "products" : [
+                {
+                  "name" : "QRCode",
+                  "targets" : [
+                    "QRCode"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "QRCodeDetector",
+                  "targets" : [
+                    "QRCodeDetector"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "dynamic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "QRCodeDynamic",
+                  "targets" : [
+                    "QRCode"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "dynamic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "QRCodeStatic",
+                  "targets" : [
+                    "QRCode"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "static"
+                    ]
+                  }
+                },
+                {
+                  "name" : "qrcodegen",
+                  "targets" : [
+                    "qrcodegen"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "QRCode",
+                  "name" : "QRCode"
+                },
+                {
+                  "moduleName" : "QRCodeDetector",
+                  "name" : "QRCodeDetector"
+                },
+                {
+                  "moduleName" : "qrcodegen",
+                  "name" : "qrcodegen"
+                }
+              ],
+              "toolsVersion" : "5.5"
+            }
+          },
+          "version" : "18.4.1"
         }
       ]
     },
     {
-      "keywords" : [
-        "cli",
-        "command-line",
-        "flag",
-        "option"
-      ],
-      "license" : {
-        "name" : "Apache-2.0",
-        "url" : "https://raw.githubusercontent.com/apple/swift-argument-parser/main/LICENSE.txt"
-      },
-      "readmeURL" : "https://raw.githubusercontent.com/apple/swift-argument-parser/main/README.md",
-      "summary" : "Straightforward, type-safe argument parsing for Swift",
       "url" : "https://github.com/apple/swift-argument-parser",
       "versions" : [
         {
@@ -603,247 +792,247 @@
               "toolsVersion" : "5.8"
             }
           },
+          "version" : "1.4.0"
+        },
+        {
+          "defaultToolsVersion" : "5.8",
+          "manifests" : {
+            "5.8" : {
+              "packageName" : "swift-argument-parser",
+              "products" : [
+                {
+                  "name" : "ArgumentParser",
+                  "targets" : [
+                    "ArgumentParser"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "GenerateManual",
+                  "targets" : [
+                    "GenerateManual"
+                  ],
+                  "type" : {
+                    "plugin" : null
+                  }
+                },
+                {
+                  "name" : "changelog-authors",
+                  "targets" : [
+                    "changelog-authors"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "count-lines",
+                  "targets" : [
+                    "count-lines"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "generate-manual",
+                  "targets" : [
+                    "generate-manual"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "math",
+                  "targets" : [
+                    "math"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "repeat",
+                  "targets" : [
+                    "repeat"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "roll",
+                  "targets" : [
+                    "roll"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "ArgumentParser",
+                  "name" : "ArgumentParser"
+                },
+                {
+                  "moduleName" : "GenerateManual",
+                  "name" : "GenerateManual"
+                },
+                {
+                  "moduleName" : "changelog_authors",
+                  "name" : "changelog-authors"
+                },
+                {
+                  "moduleName" : "count_lines",
+                  "name" : "count-lines"
+                },
+                {
+                  "moduleName" : "generate_manual",
+                  "name" : "generate-manual"
+                },
+                {
+                  "moduleName" : "math",
+                  "name" : "math"
+                },
+                {
+                  "moduleName" : "repeat",
+                  "name" : "repeat"
+                },
+                {
+                  "moduleName" : "roll",
+                  "name" : "roll"
+                }
+              ],
+              "toolsVersion" : "5.8"
+            }
+          },
+          "version" : "1.3.1"
+        },
+        {
+          "defaultToolsVersion" : "5.8",
+          "manifests" : {
+            "5.8" : {
+              "packageName" : "swift-argument-parser",
+              "products" : [
+                {
+                  "name" : "ArgumentParser",
+                  "targets" : [
+                    "ArgumentParser"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                },
+                {
+                  "name" : "GenerateManual",
+                  "targets" : [
+                    "GenerateManual"
+                  ],
+                  "type" : {
+                    "plugin" : null
+                  }
+                },
+                {
+                  "name" : "changelog-authors",
+                  "targets" : [
+                    "changelog-authors"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "count-lines",
+                  "targets" : [
+                    "count-lines"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "generate-manual",
+                  "targets" : [
+                    "generate-manual"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "math",
+                  "targets" : [
+                    "math"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "repeat",
+                  "targets" : [
+                    "repeat"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                },
+                {
+                  "name" : "roll",
+                  "targets" : [
+                    "roll"
+                  ],
+                  "type" : {
+                    "executable" : null
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "ArgumentParser",
+                  "name" : "ArgumentParser"
+                },
+                {
+                  "moduleName" : "GenerateManual",
+                  "name" : "GenerateManual"
+                },
+                {
+                  "moduleName" : "changelog_authors",
+                  "name" : "changelog-authors"
+                },
+                {
+                  "moduleName" : "count_lines",
+                  "name" : "count-lines"
+                },
+                {
+                  "moduleName" : "generate_manual",
+                  "name" : "generate-manual"
+                },
+                {
+                  "moduleName" : "math",
+                  "name" : "math"
+                },
+                {
+                  "moduleName" : "repeat",
+                  "name" : "repeat"
+                },
+                {
+                  "moduleName" : "roll",
+                  "name" : "roll"
+                }
+              ],
+              "toolsVersion" : "5.8"
+            }
+          },
           "version" : "1.3.0"
-        },
-        {
-          "defaultToolsVersion" : "5.6",
-          "manifests" : {
-            "5.6" : {
-              "packageName" : "swift-argument-parser",
-              "products" : [
-                {
-                  "name" : "ArgumentParser",
-                  "targets" : [
-                    "ArgumentParser"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                },
-                {
-                  "name" : "GenerateManual",
-                  "targets" : [
-                    "GenerateManual"
-                  ],
-                  "type" : {
-                    "plugin" : null
-                  }
-                },
-                {
-                  "name" : "changelog-authors",
-                  "targets" : [
-                    "changelog-authors"
-                  ],
-                  "type" : {
-                    "executable" : null
-                  }
-                },
-                {
-                  "name" : "count-lines",
-                  "targets" : [
-                    "count-lines"
-                  ],
-                  "type" : {
-                    "executable" : null
-                  }
-                },
-                {
-                  "name" : "generate-manual",
-                  "targets" : [
-                    "generate-manual"
-                  ],
-                  "type" : {
-                    "executable" : null
-                  }
-                },
-                {
-                  "name" : "math",
-                  "targets" : [
-                    "math"
-                  ],
-                  "type" : {
-                    "executable" : null
-                  }
-                },
-                {
-                  "name" : "repeat",
-                  "targets" : [
-                    "repeat"
-                  ],
-                  "type" : {
-                    "executable" : null
-                  }
-                },
-                {
-                  "name" : "roll",
-                  "targets" : [
-                    "roll"
-                  ],
-                  "type" : {
-                    "executable" : null
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "ArgumentParser",
-                  "name" : "ArgumentParser"
-                },
-                {
-                  "moduleName" : "GenerateManual",
-                  "name" : "GenerateManual"
-                },
-                {
-                  "moduleName" : "changelog_authors",
-                  "name" : "changelog-authors"
-                },
-                {
-                  "moduleName" : "count_lines",
-                  "name" : "count-lines"
-                },
-                {
-                  "moduleName" : "generate_manual",
-                  "name" : "generate-manual"
-                },
-                {
-                  "moduleName" : "math",
-                  "name" : "math"
-                },
-                {
-                  "moduleName" : "repeat",
-                  "name" : "repeat"
-                },
-                {
-                  "moduleName" : "roll",
-                  "name" : "roll"
-                }
-              ],
-              "toolsVersion" : "5.6"
-            }
-          },
-          "version" : "1.2.3"
-        },
-        {
-          "defaultToolsVersion" : "5.6",
-          "manifests" : {
-            "5.6" : {
-              "packageName" : "swift-argument-parser",
-              "products" : [
-                {
-                  "name" : "ArgumentParser",
-                  "targets" : [
-                    "ArgumentParser"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                },
-                {
-                  "name" : "GenerateManual",
-                  "targets" : [
-                    "GenerateManual"
-                  ],
-                  "type" : {
-                    "plugin" : null
-                  }
-                },
-                {
-                  "name" : "changelog-authors",
-                  "targets" : [
-                    "changelog-authors"
-                  ],
-                  "type" : {
-                    "executable" : null
-                  }
-                },
-                {
-                  "name" : "count-lines",
-                  "targets" : [
-                    "count-lines"
-                  ],
-                  "type" : {
-                    "executable" : null
-                  }
-                },
-                {
-                  "name" : "generate-manual",
-                  "targets" : [
-                    "generate-manual"
-                  ],
-                  "type" : {
-                    "executable" : null
-                  }
-                },
-                {
-                  "name" : "math",
-                  "targets" : [
-                    "math"
-                  ],
-                  "type" : {
-                    "executable" : null
-                  }
-                },
-                {
-                  "name" : "repeat",
-                  "targets" : [
-                    "repeat"
-                  ],
-                  "type" : {
-                    "executable" : null
-                  }
-                },
-                {
-                  "name" : "roll",
-                  "targets" : [
-                    "roll"
-                  ],
-                  "type" : {
-                    "executable" : null
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "ArgumentParser",
-                  "name" : "ArgumentParser"
-                },
-                {
-                  "moduleName" : "GenerateManual",
-                  "name" : "GenerateManual"
-                },
-                {
-                  "moduleName" : "changelog_authors",
-                  "name" : "changelog-authors"
-                },
-                {
-                  "moduleName" : "count_lines",
-                  "name" : "count-lines"
-                },
-                {
-                  "moduleName" : "generate_manual",
-                  "name" : "generate-manual"
-                },
-                {
-                  "moduleName" : "math",
-                  "name" : "math"
-                },
-                {
-                  "moduleName" : "repeat",
-                  "name" : "repeat"
-                },
-                {
-                  "moduleName" : "roll",
-                  "name" : "roll"
-                }
-              ],
-              "toolsVersion" : "5.6"
-            }
-          },
-          "version" : "1.2.2"
         },
         {
           "defaultToolsVersion" : "5.2",
@@ -1091,28 +1280,12 @@
       ]
     },
     {
-      "keywords" : [
-        "dom",
-        "extract",
-        "html",
-        "html-document",
-        "parse",
-        "selector",
-        "swift",
-        "swiftsoup"
-      ],
-      "license" : {
-        "name" : "MIT",
-        "url" : "https://raw.githubusercontent.com/scinfu/SwiftSoup/master/LICENSE"
-      },
-      "readmeURL" : "https://raw.githubusercontent.com/scinfu/SwiftSoup/master/README.md",
-      "summary" : "SwiftSoup: Pure Swift HTML Parser, with best of DOM, CSS, and jquery (Supports Linux, iOS, Mac, tvOS, watchOS)",
       "url" : "https://github.com/scinfu/SwiftSoup.git",
       "versions" : [
         {
-          "defaultToolsVersion" : "5.0",
+          "defaultToolsVersion" : "5.7",
           "manifests" : {
-            "5.0" : {
+            "5.7" : {
               "packageName" : "SwiftSoup",
               "products" : [
                 {
@@ -1133,11 +1306,41 @@
                   "name" : "SwiftSoup"
                 }
               ],
-              "toolsVersion" : "5.0"
+              "toolsVersion" : "5.7"
             }
           },
-          "summary" : "2.6.1",
-          "version" : "2.6.1"
+          "summary" : "2.7.2",
+          "version" : "2.7.2"
+        },
+        {
+          "defaultToolsVersion" : "5.7",
+          "manifests" : {
+            "5.7" : {
+              "packageName" : "SwiftSoup",
+              "products" : [
+                {
+                  "name" : "SwiftSoup",
+                  "targets" : [
+                    "SwiftSoup"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "SwiftSoup",
+                  "name" : "SwiftSoup"
+                }
+              ],
+              "toolsVersion" : "5.7"
+            }
+          },
+          "summary" : "2.7.1",
+          "version" : "2.7.1"
         },
         {
           "defaultToolsVersion" : "5.0",
@@ -1166,38 +1369,8 @@
               "toolsVersion" : "5.0"
             }
           },
-          "summary" : "",
-          "version" : "2.6.0"
-        },
-        {
-          "defaultToolsVersion" : "5.0",
-          "manifests" : {
-            "5.0" : {
-              "packageName" : "SwiftSoup",
-              "products" : [
-                {
-                  "name" : "SwiftSoup",
-                  "targets" : [
-                    "SwiftSoup"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "SwiftSoup",
-                  "name" : "SwiftSoup"
-                }
-              ],
-              "toolsVersion" : "5.0"
-            }
-          },
-          "summary" : "",
-          "version" : "2.5.3"
+          "summary" : "2.7.0",
+          "version" : "2.7.0"
         },
         {
           "defaultToolsVersion" : "4.1",
@@ -1365,7 +1538,7 @@
               "toolsVersion" : "5.7"
             }
           },
-          "version" : "v6.23.0"
+          "version" : "v6.27.0"
         },
         {
           "defaultToolsVersion" : "5.7",
@@ -1438,7 +1611,7 @@
               "toolsVersion" : "5.7"
             }
           },
-          "version" : "v6.22.0"
+          "version" : "v6.26.0"
         },
         {
           "defaultToolsVersion" : "5.7",
@@ -1511,7 +1684,7 @@
               "toolsVersion" : "5.7"
             }
           },
-          "version" : "v6.21.0"
+          "version" : "v6.25.0"
         },
         {
           "defaultToolsVersion" : "5.2",
@@ -1699,6 +1872,109 @@
               "minimumPlatformVersions" : [
                 {
                   "name" : "macos",
+                  "version" : "10.13"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "12.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "12.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "4.0"
+                },
+                {
+                  "name" : "visionos",
+                  "version" : "1.0"
+                }
+              ],
+              "packageName" : "ZIPFoundation",
+              "products" : [
+                {
+                  "name" : "ZIPFoundation",
+                  "targets" : [
+                    "ZIPFoundation"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "ZIPFoundation",
+                  "name" : "ZIPFoundation"
+                }
+              ],
+              "toolsVersion" : "5.9"
+            }
+          },
+          "version" : "0.9.19"
+        },
+        {
+          "defaultToolsVersion" : "5.9",
+          "manifests" : {
+            "5.9" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
+                  "version" : "10.13"
+                },
+                {
+                  "name" : "ios",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "tvos",
+                  "version" : "11.0"
+                },
+                {
+                  "name" : "watchos",
+                  "version" : "4.0"
+                },
+                {
+                  "name" : "visionos",
+                  "version" : "1.0"
+                }
+              ],
+              "packageName" : "ZIPFoundation",
+              "products" : [
+                {
+                  "name" : "ZIPFoundation",
+                  "targets" : [
+                    "ZIPFoundation"
+                  ],
+                  "type" : {
+                    "library" : [
+                      "automatic"
+                    ]
+                  }
+                }
+              ],
+              "targets" : [
+                {
+                  "moduleName" : "ZIPFoundation",
+                  "name" : "ZIPFoundation"
+                }
+              ],
+              "toolsVersion" : "5.9"
+            }
+          },
+          "summary" : "",
+          "version" : "0.9.18"
+        },
+        {
+          "defaultToolsVersion" : "5.9",
+          "manifests" : {
+            "5.9" : {
+              "minimumPlatformVersions" : [
+                {
+                  "name" : "macos",
                   "version" : "10.11"
                 },
                 {
@@ -1742,102 +2018,6 @@
             }
           },
           "version" : "0.9.17"
-        },
-        {
-          "defaultToolsVersion" : "5.0",
-          "manifests" : {
-            "5.0" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "macos",
-                  "version" : "10.11"
-                },
-                {
-                  "name" : "ios",
-                  "version" : "9.0"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "9.0"
-                },
-                {
-                  "name" : "watchos",
-                  "version" : "2.0"
-                }
-              ],
-              "packageName" : "ZIPFoundation",
-              "products" : [
-                {
-                  "name" : "ZIPFoundation",
-                  "targets" : [
-                    "ZIPFoundation"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "ZIPFoundation",
-                  "name" : "ZIPFoundation"
-                }
-              ],
-              "toolsVersion" : "5.0"
-            }
-          },
-          "summary" : "",
-          "version" : "0.9.16"
-        },
-        {
-          "defaultToolsVersion" : "5.0",
-          "manifests" : {
-            "5.0" : {
-              "minimumPlatformVersions" : [
-                {
-                  "name" : "macos",
-                  "version" : "10.11"
-                },
-                {
-                  "name" : "ios",
-                  "version" : "9.0"
-                },
-                {
-                  "name" : "tvos",
-                  "version" : "9.0"
-                },
-                {
-                  "name" : "watchos",
-                  "version" : "2.0"
-                }
-              ],
-              "packageName" : "ZIPFoundation",
-              "products" : [
-                {
-                  "name" : "ZIPFoundation",
-                  "targets" : [
-                    "ZIPFoundation"
-                  ],
-                  "type" : {
-                    "library" : [
-                      "automatic"
-                    ]
-                  }
-                }
-              ],
-              "targets" : [
-                {
-                  "moduleName" : "ZIPFoundation",
-                  "name" : "ZIPFoundation"
-                }
-              ],
-              "toolsVersion" : "5.0"
-            }
-          },
-          "summary" : "",
-          "version" : "0.9.15"
         }
       ]
     }
